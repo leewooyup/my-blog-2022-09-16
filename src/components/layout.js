@@ -38,6 +38,11 @@ function Layout({ children, pageTitle }) {
               About
             </Link>
           </li>
+          <li className={navLinkItem}>
+            <Link className={navLinkText} to="/blog">
+              Blog
+            </Link>
+          </li>
         </ul>
       </nav>
       <main>
